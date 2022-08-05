@@ -22,6 +22,7 @@ func Split(period string) ([]string, error) {
 	case 6:
 		return splitMonth(ss)
 	}
+	return nil, errors.New("unexpected periods format")
 }
 
 func splitDay(ss []string) ([]string, error) {
