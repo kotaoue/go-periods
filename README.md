@@ -10,13 +10,13 @@ Package for date period handling in Go.
 ## Installation
 
 ```bash
-go get github.com/kotaoue/go-periods/periods
+go get github.com/kotaoue/go-periods
 ```
 
 ## Import
 
 ```go
-import "github.com/kotaoue/go-periods/periods"
+import "github.com/kotaoue/go-periods"
 ```
 
 ## Usage
@@ -44,7 +44,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kotaoue/go-periods/periods"
+	periods "github.com/kotaoue/go-periods"
 )
 
 func main() {
@@ -70,7 +70,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kotaoue/go-periods/periods"
+	periods "github.com/kotaoue/go-periods"
 )
 
 func main() {
@@ -96,7 +96,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/kotaoue/go-periods/periods"
+	periods "github.com/kotaoue/go-periods"
 )
 
 func main() {

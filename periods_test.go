@@ -3,7 +3,7 @@ package periods_test
 import (
 	"testing"
 
-	"github.com/kotaoue/go-periods/periods"
+	periods "github.com/kotaoue/go-periods"
 )
 
 func TestSplit(t *testing.T) {
